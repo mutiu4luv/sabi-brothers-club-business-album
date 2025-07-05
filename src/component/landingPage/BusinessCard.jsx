@@ -22,6 +22,9 @@ import SearchIcon from "@mui/icons-material/Search";
 // Import all image assets
 import nonso from "../../assets/nonso.jpeg";
 import mutiu from "../../assets/mutiu.jpeg";
+import skipo from "../../assets/skipo.jpeg";
+import edu from "../../assets/edu.jpg";
+import kendo from "../../assets/kendo.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -35,7 +38,7 @@ const BusinessCard = () => {
   const businesses = [
     {
       id: 1,
-      name: "Surv. Eunan Chinonso Ndiwe (Apoatle Surveying)",
+      name: "Surv. Eunan Chinonso Ndiwe ",
       description:
         "Originally from Umubu - Umuowa, Orlu L.G.A in Imo State. I am a driven individual with a passion for success, adventure, and social engagement. I specialize in land surveying, real estate services, car sales, forex and crypto trading, as well as international trade. I also provide professional bouncer and security services for events and private functions. With a strong work ethic and a commitment to excellence, I strive to deliver top-notch services across all these fields.",
       owner: "Surv. Eunan Chinonso Ndiwe ",
@@ -78,6 +81,57 @@ const BusinessCard = () => {
       ],
       phone: "+2347031911306",
       email: "chidiemmamadu@gmail.com",
+    },
+    {
+      id: 3,
+      name: " Ndukuba Clement.C",
+      description:
+        ": I'm a fashion designer passionate about crafting garments and handmade footwears that blend innovation, elegance, and individuality. With a distinct eye for detail and a love for creative expressions,I bring visions to life through bespoke designs and footwears that make a statement. I am also passionate about social engagement,adventures.In addition to fashion…I’m also actively present in international trading,Event planning. I bring excellence and creativity to all projects.",
+      owner: "Ndukuba Clement.C",
+      image: skipo,
+      services: [
+        "Fashion Designing.",
+        "Handmade footwears.",
+        "International trading.",
+        "Event planning.",
+        "Social Engagement.",
+      ],
+      phone: " 08145866583",
+      email: "ndukubaclems@gmail.com",
+    },
+    {
+      id: 4,
+      name: "  Surv. Omekam Chiedu Chinonso",
+      description:
+        "Surv Edu also known as (Big Fish) is a SURCON Registered Surveyor passionate about the built industry. He is the Chief Executive Officer of Epic Surveys and Mapping Services a Frontline firm in the fields of Property, Engineering, Construction and Hydrographic Surveys. Surv. Edu is also a well sort GIS Expert and a Data Analyst who specializes in the production of various kinds of Maps, Charts and Specialized graphs. He has most recently ventured into the frozen food and food stuff business with his outlet at No. 4 Alaenyi Str behind Cherubim Junction off Wethedral Road Owerri.",
+      owner: " Surv. Omekam Chiedu Chinonso also known as Big Fish",
+      image: edu,
+      services: [
+        "Registered Surveyor.",
+        "Real Estate Consultant",
+        " GIS Analyst.",
+        "frozen food and food stuff vendor.",
+        // "Social Engagement.",
+      ],
+      phone: "   08136454460",
+      email: "surv.edu@gmail.com",
+    },
+    {
+      id: 4,
+      name: "  Nwauba Kennedy Nnaemeka ",
+      description:
+        "My name is Nwauba Kennedy Nnaemeka, an experienced and passionate IT professional with a strong background in teaching Computer Science, Graphic designing and providing IT support services. I design birthday, wedding, party  award cards/flyers .With a deep understanding of both theory and practical applications, I have dedicated my career to empowering individuals and organizations through technology.As a Computer Science teacher, I specialize in breaking down complex computer concepts into simple, engaging lessons for students of various levels. I take pride in nurturing digital literacy and ensuring that learners not only understand computer fundamentals but also gain hands-on experience with tools and applications relevant to today’s tech-driven world.In addition to teaching, I am a creative graphics designer, skilled in creating visually appealing and professional designs for both print and digital platforms. From branding materials to social media graphics, I bring ideas to life with precision and creativity.I also work as an IT support staff, where I handle system troubleshooting, network setup, software installation, and general technical assistance. I ensure smooth and efficient use of technology in both educational and professional environments.With a versatile IT skill set and a passion for problem-solving, I continue to grow in the ever-evolving tech space while helping others unlock the power of technology.",
+      owner: " Nwauba Kennedy Nnaemeka ",
+      image: kendo,
+      services: [
+        "Computer Science Teacher",
+        "Graphic Designer",
+        "   iT Support Staff",
+        "Birthday, Wedding, Party and Award Cards/Flyers Designer",
+        " Social Engagement",
+      ],
+      phone: "   08136454460",
+      email: "surv.edu@gmail.com",
     },
   ];
 
