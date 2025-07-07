@@ -25,6 +25,7 @@ import mutiu from "../../assets/mutiu.jpeg";
 import skipo from "../../assets/skipo.jpeg";
 import edu from "../../assets/edu.jpg";
 import kendo from "../../assets/kendo.jpeg";
+import ezege from "../../assets/ezege.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -40,7 +41,7 @@ const BusinessCard = () => {
       id: 1,
       name: "Surv. Eunan Chinonso Ndiwe ",
       description:
-        "Originally from Umubu - Umuowa, Orlu L.G.A in Imo State. I am a driven individual with a passion for success, adventure, and social engagement. I specialize in land surveying, real estate services, car sales, forex and crypto trading, as well as international trade. I also provide professional bouncer and security services for events and private functions. With a strong work ethic and a commitment to excellence, I strive to deliver top-notch services across all these fields.",
+        "Originally from Umubu - Umuowa, Orlu L.G.A in Imo State. I am a driven individual with a passion for success, adventure, and social engagement. I specialize in  surveying, Realtor, Logistics,Car dealer, Forex/crypto trader,Foreign trader  , as well as providing professional bouncer and security services for events and private functions. With a strong work ethic and a commitment to excellence, I strive to deliver top-notch services across all these fields.",
       owner: "Surv. Eunan Chinonso Ndiwe ",
       image: nonso,
       services: [
@@ -132,6 +133,28 @@ const BusinessCard = () => {
       ],
       phone: "   08136454460",
       email: "surv.edu@gmail.com",
+    },
+    {
+      id: 5,
+      name: "Amaogu David Chibuzor, aka Macdavid Computers(Ezege 1) ",
+      description:
+        "I am a passionate and versatile IT consultant with a strong background in both hardware and software support, offering practical solutions to everyday tech challenges. My expertise spans the sales and repair of laptops and essential accessories, ensuring clients get the best value and reliable service.Beyond technology, I am a gifted instrumentalist—proficient in playing the harmonica, konga, and piano. As a tenor singer with a flair for performance, I bring life to any gathering through music and rhythm, often pairing my sound with strategic dance expressions that captivate audiences. As a charismatic Master of Ceremonies (MC), I anchor events such as weddings, birthdays, and memorials with professionalism, humor, and presence ensuring that every moment remains unforgettable. Nicknamed (The Philosopher,) I am deeply curious about life, constantly in pursuit of truth, knowledge, and wisdom. This mindset also fuels my recent journey into the financial world, where I’m a new but enthusiastic learner in forex and cryptocurrency trading.Currently, I am expanding my skills in data analysis, driven by a desire to harness data for insights, storytelling, and decision-making in today's digital economy.Whether it's through technology, art, finance, or thought leadership I bring creativity, depth, and a learner’s spirit to every endeavor.",
+      owner: " Nwauba Kennedy Nnaemeka ",
+      image: ezege,
+      services: [
+        "IT consultancy (hardware and software)",
+        "Laptop sales and repairs",
+        "Laptop accessories supply",
+        "Musical performance (Harmonica, Konga, Piano)",
+        "Tenor vocal performance",
+        "Strategic dance entertainment",
+        "Master of Ceremonies (weddings, birthdays, burials, etc.)",
+        "Philosophical content creation / motivational speaking",
+        "Forex and cryptocurrency trading (beginner level)",
+        "Data analysis (learning stage)",
+      ],
+      phone: "   08108002904",
+      email: " davidamaogu042@gmail.com",
     },
   ];
 
