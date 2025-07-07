@@ -93,7 +93,7 @@ const BusinessCard = () => {
       id: 3,
       name: " Ndukuba Clement.C",
       description:
-        ": I'm a fashion designer passionate about crafting garments and handmade footwears that blend innovation, elegance, and individuality. With a distinct eye for detail and a love for creative expressions,I bring visions to life through bespoke designs and footwears that make a statement. I am also passionate about social engagement,adventures.In addition to fashion…I’m also actively present in international trading,Event planning. I bring excellence and creativity to all projects.",
+        " I'm a fashion designer passionate about crafting garments and handmade footwears that blend innovation, elegance, and individuality. With a distinct eye for detail and a love for creative expressions,I bring visions to life through bespoke designs and footwears that make a statement. I am also passionate about social engagement,adventures.In addition to fashion…I’m also actively present in international trading,Event planning. I bring excellence and creativity to all projects.",
       owner: "Ndukuba Clement.C",
       image: skipo,
       services: [
@@ -137,8 +137,8 @@ const BusinessCard = () => {
         "Birthday, Wedding, Party and Award Cards/Flyers Designer",
         " Social Engagement",
       ],
-      phone: "   08136454460",
-      email: "surv.edu@gmail.com",
+      phone: "    08038116742",
+      email: "nwaubakennedy@gmail.com",
     },
     {
       id: 5,
