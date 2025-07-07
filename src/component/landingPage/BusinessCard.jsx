@@ -26,6 +26,7 @@ import skipo from "../../assets/skipo.jpeg";
 import edu from "../../assets/edu.jpg";
 import kendo from "../../assets/kendo.jpeg";
 import ezeke from "../../assets/ezeke.jpeg";
+import chinachris from "../../assets/chinachris.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -158,6 +159,28 @@ const BusinessCard = () => {
         "Philosophical content creation / motivational speaking",
         "Forex and cryptocurrency trading (beginner level)",
         "Data analysis (learning stage)",
+      ],
+      phone: "   08108002904",
+      email: " davidamaogu042@gmail.com",
+    },
+    {
+      id: 6,
+      name: "Chinedu Christopher (CHINACHRIS )  ",
+      description:
+        "From the peaceful village of Umudim Lawa, Ogbaku, I am a passionate and versatile entrepreneur with expertise spanning several industries. As a seasoned event planner and creative decorator, I specialize in transforming spaces into unforgettable experiences—be it weddings, birthdays, corporate events, or private celebrations. My keen eye for aesthetics and detail ensures every event is uniquely styled and flawlessly executed.In addition to event services, I am actively involved in the real estate industry, helping clients secure prime lands, properties, and homes with confidence and ease. Whether you're looking to buy, sell, or rent, I provide reliable, transparent, and timely real estate solutions.I am also a skilled baker, crafting delicious and visually appealing cakes and pastries that bring joy to every occasion. With a commitment to excellence and customer satisfaction, I bring energy, creativity, and integrity to every project I take on. Let’s work together to bring your visions to life—whether it’s your dream event, dream home, or dream dessert.",
+      owner: "Chinedu Christopher  ",
+      image: chinachris,
+      services: [
+        "Event Planning",
+        "Event Decoration",
+        "Wedding and Party Styling",
+        "Real Estate Services",
+        "Land and Property Sales",
+        "House Rental and Purchase Assistance",
+        "Property Agent Services",
+        "Baking and Cake Decoration",
+        "Pastry and Dessert Orders for Events",
+        "Custom Cakes for Weddings and Birthdays",
       ],
       phone: "   08108002904",
       email: " davidamaogu042@gmail.com",
