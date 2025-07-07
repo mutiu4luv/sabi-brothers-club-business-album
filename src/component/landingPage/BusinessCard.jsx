@@ -182,8 +182,8 @@ const BusinessCard = () => {
         "Pastry and Dessert Orders for Events",
         "Custom Cakes for Weddings and Birthdays",
       ],
-      phone: "   08108002904",
-      email: " davidamaogu042@gmail.com",
+      phone: "    07038740080",
+      email: " chinachris835@gmail.com ",
     },
   ];
 
