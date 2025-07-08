@@ -21,6 +21,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { FaTiktok } from "react-icons/fa";
 
 // Import all image assets
 import nonso from "../../assets/nonso.jpeg";
@@ -250,9 +251,12 @@ const BusinessCard = () => {
       ],
       phone: " 07075723880 ",
       email: "info@carneiz.com",
-      // facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
+      facebook: "https://www.facebook.com/share/16d3AByqN2/?mibextid=wwXIfr",
+      instagram:
+        "https://www.instagram.com/carneiz_meat_spices?igsh=bmp3b2M2cnNlaHR5",
       whatsapp: "+2347075723880",
-      website: " www.carneiz.org",
+      website: "www.carneiz.org",
+      tiktok: "https://www.tiktok.com/@carneiz?_t=ZN-8xC7kHxtdVW&_r=1,",
     },
   ];
 
@@ -469,7 +473,6 @@ const BusinessCard = () => {
 
                         {business.website && (
                           <Typography variant="caption" color="text.secondary">
-                            <br />
                             Website:{" "}
                             <a
                               href={
@@ -487,6 +490,17 @@ const BusinessCard = () => {
                               {business.website}
                             </a>
                           </Typography>
+                        )}
+                        {business.tiktok && (
+                          <IconButton
+                            component="a"
+                            href={business.tiktok}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{ color: "#000000" }}
+                          >
+                            <FaTiktok />
+                          </IconButton>
                         )}
                       </Box>
                     </Box>
