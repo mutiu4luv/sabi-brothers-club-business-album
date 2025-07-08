@@ -248,10 +248,11 @@ const BusinessCard = () => {
         "Online Meat Ordering",
         "Home Delivery Within Owerri",
       ],
-      phone: "07035548226 ",
-      email: "chinachris835@gmail.com",
-      facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
-      whatsapp: "+2347035548226",
+      phone: " 07075723880 ",
+      email: "info@carneiz.com",
+      // facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
+      whatsapp: "+2347075723880",
+      website: " www.carneiz.org",
     },
   ];
 
@@ -464,6 +465,28 @@ const BusinessCard = () => {
                           >
                             <InstagramIcon />
                           </IconButton>
+                        )}
+
+                        {business.website && (
+                          <Typography variant="caption" color="text.secondary">
+                            <br />
+                            Website:{" "}
+                            <a
+                              href={
+                                business.website.startsWith("http")
+                                  ? business.website
+                                  : `https://${business.website}`
+                              }
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              style={{
+                                color: "#1976d2",
+                                textDecoration: "none",
+                              }}
+                            >
+                              {business.website}
+                            </a>
+                          </Typography>
                         )}
                       </Box>
                     </Box>
