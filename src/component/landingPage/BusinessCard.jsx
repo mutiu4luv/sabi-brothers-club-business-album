@@ -147,7 +147,7 @@ const BusinessCard = () => {
       ],
       phone: "    08038116742",
       email: "nwaubakennedy@gmail.com",
-      facebooke: "https://www.facebook.com/kennedy.nwauba",
+      facebook: "https://www.facebook.com/kennedy.nwauba",
       whatsapp: "08038116742",
     },
     {
