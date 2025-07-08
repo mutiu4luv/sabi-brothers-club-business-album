@@ -18,6 +18,8 @@ import {
   useTheme,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 // Import all image assets
 import nonso from "../../assets/nonso.jpeg";
@@ -61,6 +63,8 @@ const BusinessCard = () => {
       ],
       phone: "08034861330",
       email: "Smitharmstrong92@gmail.com",
+      facebook: "https://www.facebook.com/share/1GP91iFasz/",
+      whatsapp: "08034861330",
     },
     {
       id: 2,
@@ -89,6 +93,8 @@ const BusinessCard = () => {
       ],
       phone: "+2347031911306",
       email: "chidiemmamadu@gmail.com",
+      facebook: "https://m.facebook.com/emmanuelmutiu",
+      whatsapp: "07031911306",
     },
     {
       id: 3,
@@ -119,13 +125,12 @@ const BusinessCard = () => {
         "Real Estate Consultant",
         " GIS Analyst.",
         "frozen food and food stuff vendor.",
-        // "Social Engagement.",
       ],
       phone: "   08136454460",
       email: "surv.edu@gmail.com",
     },
     {
-      id: 4,
+      id: 5,
       name: "  Nwauba Kennedy Nnaemeka ",
       description:
         "My name is Nwauba Kennedy Nnaemeka, an experienced and passionate IT professional with a strong background in teaching Computer Science, Graphic designing and providing IT support services. I design birthday, wedding, party  award cards/flyers .With a deep understanding of both theory and practical applications, I have dedicated my career to empowering individuals and organizations through technology.As a Computer Science teacher, I specialize in breaking down complex computer concepts into simple, engaging lessons for students of various levels. I take pride in nurturing digital literacy and ensuring that learners not only understand computer fundamentals but also gain hands-on experience with tools and applications relevant to today’s tech-driven world.In addition to teaching, I am a creative graphics designer, skilled in creating visually appealing and professional designs for both print and digital platforms. From branding materials to social media graphics, I bring ideas to life with precision and creativity.I also work as an IT support staff, where I handle system troubleshooting, network setup, software installation, and general technical assistance. I ensure smooth and efficient use of technology in both educational and professional environments.With a versatile IT skill set and a passion for problem-solving, I continue to grow in the ever-evolving tech space while helping others unlock the power of technology.",
@@ -140,9 +145,11 @@ const BusinessCard = () => {
       ],
       phone: "    08038116742",
       email: "nwaubakennedy@gmail.com",
+      facebooke: "https://www.facebook.com/kennedy.nwauba",
+      whatsapp: "08038116742",
     },
     {
-      id: 5,
+      id: 6,
       name: "Amaogu David Chibuzor, aka Macdavid Computers(Ezege 1) ",
       description:
         "I am a passionate and versatile IT consultant with a strong background in both hardware and software support, offering practical solutions to everyday tech challenges. My expertise spans the sales and repair of laptops and essential accessories, ensuring clients get the best value and reliable service.Beyond technology, I am a gifted instrumentalist—proficient in playing the harmonica, konga, and piano. As a tenor singer with a flair for performance, I bring life to any gathering through music and rhythm, often pairing my sound with strategic dance expressions that captivate audiences. As a charismatic Master of Ceremonies (MC), I anchor events such as weddings, birthdays, and memorials with professionalism, humor, and presence ensuring that every moment remains unforgettable. Nicknamed (The Philosopher,) I am deeply curious about life, constantly in pursuit of truth, knowledge, and wisdom. This mindset also fuels my recent journey into the financial world, where I’m a new but enthusiastic learner in forex and cryptocurrency trading.Currently, I am expanding my skills in data analysis, driven by a desire to harness data for insights, storytelling, and decision-making in today's digital economy.Whether it's through technology, art, finance, or through leadership I bring creativity, depth, and a learner’s spirit to every endeavor.",
@@ -164,7 +171,7 @@ const BusinessCard = () => {
       email: " davidamaogu042@gmail.com",
     },
     {
-      id: 6,
+      id: 7,
       name: "Chinedu Christopher (CHINACHRIS )  ",
       description:
         "From the peaceful village of Umudim Lawa, Ogbaku, I am a passionate and versatile entrepreneur with expertise spanning several industries. As a seasoned event planner and creative decorator, I specialize in transforming spaces into unforgettable experiences—be it weddings, birthdays, corporate events, or private celebrations. My keen eye for aesthetics and detail ensures every event is uniquely styled and flawlessly executed.In addition to event services, I am actively involved in the real estate industry, helping clients secure prime lands, properties, and homes with confidence and ease. Whether you're looking to buy, sell, or rent, I provide reliable, transparent, and timely real estate solutions.I am also a skilled baker, crafting delicious and visually appealing cakes and pastries that bring joy to every occasion. With a commitment to excellence and customer satisfaction, I bring energy, creativity, and integrity to every project I take on. Let’s work together to bring your visions to life—whether it’s your dream event, dream home, or dream dessert.",
@@ -184,9 +191,10 @@ const BusinessCard = () => {
       ],
       phone: "    07038740080",
       email: " chinachris835@gmail.com ",
+      facebook: "https://m.facebook.com/chinachris.christopher/",
+      whatsapp: "07038740080",
     },
   ];
-
   const filteredBusinesses = businesses.filter((biz) =>
     biz.services.some((service) =>
       service.toLowerCase().includes(search.toLowerCase())
@@ -216,7 +224,7 @@ const BusinessCard = () => {
           value={search}
           onChange={(e) => {
             setSearch(e.target.value);
-            setPage(1); // reset to first page on new search
+            setPage(1);
           }}
           sx={{ width: "100%", maxWidth: 400 }}
           InputProps={{
@@ -339,6 +347,31 @@ const BusinessCard = () => {
                           </a>
                         </Typography>
                       )}
+
+                      <Box mt={1} display="flex" gap={2}>
+                        {business.whatsapp && (
+                          <IconButton
+                            component="a"
+                            href={`https://wa.me/${business.whatsapp}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            color="success"
+                          >
+                            <WhatsAppIcon />
+                          </IconButton>
+                        )}
+                        {business.facebook && (
+                          <IconButton
+                            component="a"
+                            href={business.facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            color="primary"
+                          >
+                            <FacebookIcon />
+                          </IconButton>
+                        )}
+                      </Box>
                     </Box>
                   </CardContent>
                 </Card>
