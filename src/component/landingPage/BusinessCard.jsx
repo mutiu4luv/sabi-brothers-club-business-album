@@ -78,7 +78,7 @@ const BusinessCard = () => {
       phone: "08145866583",
       email: "ndukubaclems@gmail.com",
       whatsapp: "+2348145866583",
-      instagram: "https://instagram.com/plushman_1",
+      instagram: "https://instagram.com/plush_man1",
       Instagrams: "https://instagram.com/clemsmorganz",
     },
     {
@@ -121,7 +121,12 @@ const BusinessCard = () => {
       description: "I am a passionate and versatile entrepreneur...",
       owner: "Chinedu Christopher",
       image: chinachris,
-      services: ["Event Planning", "Real Estate", "Baking"],
+      services: [
+        "Event Planning",
+        "Real Estate",
+        "Baking",
+        "Industrial Cleaning",
+      ],
       phone: "07038740080",
       email: "chinachris835@gmail.com",
       facebook: "https://m.facebook.com/chinachris.christopher/",
