@@ -112,6 +112,7 @@ const BusinessCard = () => {
       ],
       phone: " 08145866583",
       email: "ndukubaclems@gmail.com",
+      whatsapp: "08145866583",
     },
     {
       id: 4,
@@ -128,6 +129,7 @@ const BusinessCard = () => {
       ],
       phone: "   08136454460",
       email: "surv.edu@gmail.com",
+      whatsapp: "08136454460",
     },
     {
       id: 5,
@@ -169,6 +171,7 @@ const BusinessCard = () => {
       ],
       phone: "   08108002904",
       email: " davidamaogu042@gmail.com",
+      whatsapp: "08108002904",
     },
     {
       id: 7,
