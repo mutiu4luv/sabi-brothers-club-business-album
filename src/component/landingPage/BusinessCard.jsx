@@ -233,7 +233,7 @@ const BusinessCard = () => {
       id: 9,
       name: " Carneiz Ltd (Henry Umezurike)",
       description:
-        "Carneiz Ltd is your go-to destination for premium fresh meat cuts—including goat, pork, beef, turkey, chicken, and catfish—along with a wide range of spices ideal for meat preparation and general cooking. We offer convenient in-store shopping and seamless online ordering with prompt delivery services within Owerri. Visit us at 17 MCC - Uratta Road, Ikenegbu, Owerri, Imo State.",
+        "Carneiz Ltd is your go-to destination for premium fresh meat cuts including goat, pork, beef, turkey, chicken, and catfish along with a wide range of spices ideal for meat preparation and general cooking. We offer convenient in store shopping and seamless online ordering with prompt delivery services within Owerri. Visit us at 17 MCC - Uratta Road, Ikenegbu, Owerri, Imo State.",
       owner: "Henry Umezurike",
       image: henry,
       services: [
