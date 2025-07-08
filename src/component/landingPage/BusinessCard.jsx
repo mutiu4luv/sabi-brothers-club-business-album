@@ -64,7 +64,7 @@ const BusinessCard = () => {
       phone: "08034861330",
       email: "Smitharmstrong92@gmail.com",
       facebook: "https://www.facebook.com/share/1GP91iFasz/",
-      whatsapp: "08034861330",
+      whatsapp: "+2348034861330",
     },
     {
       id: 2,
@@ -94,7 +94,7 @@ const BusinessCard = () => {
       phone: "+2347031911306",
       email: "chidiemmamadu@gmail.com",
       facebook: "https://m.facebook.com/emmanuelmutiu",
-      whatsapp: "07031911306",
+      whatsapp: "+2347031911306",
     },
     {
       id: 3,
@@ -112,7 +112,7 @@ const BusinessCard = () => {
       ],
       phone: " 08145866583",
       email: "ndukubaclems@gmail.com",
-      whatsapp: "08145866583",
+      whatsapp: "+2348145866583",
     },
     {
       id: 4,
@@ -148,7 +148,7 @@ const BusinessCard = () => {
       phone: "    08038116742",
       email: "nwaubakennedy@gmail.com",
       facebook: "https://www.facebook.com/kennedy.nwauba",
-      whatsapp: "08038116742",
+      whatsapp: "+2348038116742",
     },
     {
       id: 6,
@@ -171,7 +171,7 @@ const BusinessCard = () => {
       ],
       phone: "   08108002904",
       email: " davidamaogu042@gmail.com",
-      whatsapp: "08108002904",
+      whatsapp: "+2348108002904",
     },
     {
       id: 7,
@@ -195,7 +195,7 @@ const BusinessCard = () => {
       phone: "    07038740080",
       email: " chinachris835@gmail.com ",
       facebook: "https://m.facebook.com/chinachris.christopher/",
-      whatsapp: "07038740080",
+      whatsapp: "+2347038740080",
     },
   ];
   const filteredBusinesses = businesses.filter((biz) =>
