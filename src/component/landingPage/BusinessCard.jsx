@@ -30,6 +30,7 @@ import edu from "../../assets/edu.jpg";
 import kendo from "../../assets/kendo.jpeg";
 import ezeke from "../../assets/ezeke.jpeg";
 import chinachris from "../../assets/chinachris.jpeg";
+import uch from "../../assets/uch.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -132,7 +133,8 @@ const BusinessCard = () => {
       ],
       phone: "08136454460",
       email: "surv.edu@gmail.com",
-      whatsapp: "08136454460",
+      whatsapp: "+2348136454460",
+      facebook: "https://www.facebook.com/share/1VwotXZ5R1/",
     },
     {
       id: 5,
@@ -203,6 +205,26 @@ const BusinessCard = () => {
       email: "chinachris835@gmail.com",
       facebook: "https://m.facebook.com/chinachris.christopher/",
       whatsapp: "+2347038740080",
+    },
+    {
+      id: 8,
+      name: "Nwaiwu Uchechi Modestus (Dj Uchmoney) ",
+      description:
+        "Nwaiwu Uchechi Modestus is an accountant from Umuopara in Umueleagwa Onitcha, Ezinihitte Mbaise. Known for transparency and integrity, I approach every client and event with honesty and dedication. With a strong background in entrepreneurship, ethics, and professionalism, I deliver efficient and accurate services even under pressure. I treat every event as if it were my own, ensuring the highest level of satisfaction for my clients. My services include: 1) Event DJing for indoor and outdoor parties, weddings, birthdays, burials, housewarmings, etc. 2) Event decoration for traditional and white weddings, birthdays, engagements, burials, and housewarmings. 3) Custom event cakes. 4) Hiring of smoke machines and fireworks to add excitement to events. 5) Full event planning for clients who prefer a hands-off experience.",
+      owner: "Nwaiwu Uchechi Modestus (Dj Uchmoney)",
+      image: uch,
+      services: [
+        "Event DJing (indoor and outdoor parties, weddings, birthdays, burials, housewarmings)",
+        "Event Decoration (traditional and white weddings, birthdays, engagements, burials, housewarmings)",
+        "Event Cakes",
+        "Hiring of Smoke Machines",
+        "Fireworks Rental",
+        "Full Event Planning Services",
+      ],
+      phone: "07035548226 ",
+      email: "chinachris835@gmail.com",
+      facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
+      whatsapp: "+2347035548226",
     },
   ];
 
