@@ -31,6 +31,7 @@ import kendo from "../../assets/kendo.jpeg";
 import ezeke from "../../assets/ezeke.jpeg";
 import chinachris from "../../assets/chinachris.jpeg";
 import uch from "../../assets/uch.jpeg";
+import henry from "../../assets/henry.jpeg";
 
 const BusinessCard = () => {
   const [search, setSearch] = useState("");
@@ -220,6 +221,32 @@ const BusinessCard = () => {
         "Hiring of Smoke Machines",
         "Fireworks Rental",
         "Full Event Planning Services",
+      ],
+      phone: "07035548226 ",
+      email: "chinachris835@gmail.com",
+      facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
+      whatsapp: "+2347035548226",
+    },
+
+    {
+      id: 9,
+      name: " Carneiz Ltd (Henry Umezurike)",
+      description:
+        "Carneiz Ltd is your go-to destination for premium fresh meat cuts—including goat, pork, beef, turkey, chicken, and catfish—along with a wide range of spices ideal for meat preparation and general cooking. We offer convenient in-store shopping and seamless online ordering with prompt delivery services within Owerri. Visit us at 17 MCC - Uratta Road, Ikenegbu, Owerri, Imo State.",
+      owner: "Henry Umezurike",
+      image: henry,
+      services: [
+        "Fresh Goat Meat Sales",
+        "Fresh Pork Sales",
+        "Fresh Beef Sales",
+        "Turkey Sales",
+        "Chicken Sales",
+        "Catfish Sales",
+        "Spices for Meat Preparation",
+        "General Cooking Spices",
+        "Walk-in Store Purchase",
+        "Online Meat Ordering",
+        "Home Delivery Within Owerri",
       ],
       phone: "07035548226 ",
       email: "chinachris835@gmail.com",
