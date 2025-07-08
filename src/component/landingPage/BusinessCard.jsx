@@ -174,6 +174,9 @@ const BusinessCard = () => {
       ],
       phone: "08108002904",
       email: "davidamaogu042@gmail.com",
+      facebook: "https://m.facebook.com/david.amaogu.2025/",
+      whatsapp: "+2348108002904",
+      instagram: "https://instagram.com/davidamaogu",
     },
     {
       id: 7,
