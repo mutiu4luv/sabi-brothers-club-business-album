@@ -224,7 +224,7 @@ const BusinessCard = () => {
         "Full Event Planning Services",
       ],
       phone: "07035548226 ",
-      email: "chinachris835@gmail.com",
+      email: "uchmoney@gmail.com",
       facebook: "https://m.facebook.com/nwaiwu.uchmoney/",
       whatsapp: "+2347035548226",
     },
